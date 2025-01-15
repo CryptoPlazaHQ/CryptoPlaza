@@ -1,7 +1,7 @@
 # El Arte de la Paciencia: Grid Trading vs Trading Tradicional
 *Por InmotionX, Especialista en Vainas de Vainans*
-*TCryptoPlaza- Sección de Finanzas Digitales*
-*15 de Enero, 2025*
+*| CryptoPlaza- Sección de Finanzas Digitales|*
+*15 de Enero, 2025|*
 
 ## El Océano Cripto: Dos Enfoques, Dos Realidades
 
