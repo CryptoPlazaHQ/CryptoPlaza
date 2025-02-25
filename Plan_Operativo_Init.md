@@ -126,15 +126,15 @@ A través de extensas pruebas, hemos identificado los siguientes parámetros óp
 La estrategia Maverick incorpora múltiples capas de gestión de riesgos:
 
 1. **Diversificación de Pares**
-   - Máximo 30% de capital en un solo par
+   - Máximo 20% de capital en un solo par
    - Correlación máxima entre pares del 0.7
 
 2. **Control de Apalancamiento**
    - Apalancamiento máximo de 5x en condiciones óptimas
-   - Reducción automática de apalancamiento con aumento de volatilidad
+   - Reducción monitoreada de apalancamiento con aumento de volatilidad
 
 3. **Monitoreo de Drawdown**
-   - Tolerancia máxima de drawdown del 15% por cuenta
+   - Tolerancia máxima de drawdown del 30% por cuenta
    - Protocolo de reducción de exposición al alcanzar 10% de drawdown
 
 4. **Reserva de Capital**
