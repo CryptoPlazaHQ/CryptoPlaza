@@ -196,10 +196,10 @@ graph TD
     B -->|Semanal| C[Análisis de Desviaciones]
     C -->|Quincenal| D[Optimización de Parámetros]
     D -->|Constante| A
-    style A fill:#d4f7d4,stroke:#333,stroke-width:2px
-    style B fill:#d4e9f7,stroke:#333,stroke-width:2px
-    style C fill:#f7e8d4,stroke:#333,stroke-width:2px
-    style D fill:#f7d4d4,stroke:#333,stroke-width:2px
+    style A fill:#223773,stroke:#333,stroke-width:2px
+    style B fill:#223773,stroke:#333,stroke-width:2px
+    style C fill:#223773,stroke:#333,stroke-width:2px
+    style D fill:#223773,stroke:#333,stroke-width:2px
 ```
 
 ### 7.2 🔍 Protocolos de Auditoría
