@@ -230,11 +230,13 @@ xychart-beta
 
 ### Tendencia de la Tasa de Interés Diaria
 ```mermaid
+%%{init: {'theme': 'neutral'}}%%
 xychart-beta
-    title "Tasa de Interés Diaria a lo Largo del Tiempo"
-    x-axis [Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic, Ene, Feb, Mar]
-    y-axis 0.74 0.75 0.76 0.77 0.78 0.79 0.80 0.81
-    line [0.80, 0.79, 0.79, 0.78, 0.78, 0.77, 0.77, 0.77, 0.76, 0.76, 0.75, 0.75, 0.75]
+      title "Comparativo de Crecimiento"
+      x-axis [Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic, Ene, Feb, Mar]
+      y-axis 0 --> 5000
+      bar125150175200225250275300325
+      line100180350580780980[1250][1650][2100][2800][3500][4400][4602]
 ```
 
 ### Contribuciones Acumuladas vs Balance
