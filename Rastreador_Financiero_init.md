@@ -40,18 +40,18 @@ $0    |🚀_________________________________________________
 ## 📊 Gráfico de Crecimiento del Balance
 ```mermaid
 graph TD
+    A["Inicial<br/>$100.00<br/>Mar 2025"] --> B["Hito 1<br/>$1,000.00<br/>Sep 2025"]
+    B --> C["Hito 2<br/>$2,500.00<br/>Nov 2025"]
+    C --> D["Hito 3<br/>$4,500.00<br/>Feb 2026"]
+    D --> E["Final<br/>$4,601.90<br/>Mar 2026"]
+    
     style A fill:#d952aa,stroke:#1890ff,stroke-width:2px
     style B fill:#d952aa,stroke:#1890ff,stroke-width:2px
     style C fill:#d952aa,stroke:#1890ff,stroke-width:2px
     style D fill:#d952aa,stroke:#1890ff,stroke-width:2px
     style E fill:#d952aa,stroke:#1890ff,stroke-width:2px
     
-    A["Inicial<br/>$100.00<br/>Mar 2025"] --> B["Hito 1<br/>$1,000.00<br/>Sep 2025"]
-    B --> C["Hito 2<br/>$2,500.00<br/>Nov 2025"]
-    C --> D["Hito 3<br/>$4,500.00<br/>Feb 2026"]
-    D --> E["Final<br/>$4,601.90<br/>Mar 2026"]
-    
-    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px
 ```
 
 ## 📈 Progresión del Crecimiento de Interés
@@ -141,11 +141,10 @@ $0    |🔷🔷🔷🔷🔷🔷🔷🔷__________________________________
 
 ## 📊 Progresión de Crecimiento Mensual
 ```mermaid
-%%{init: {'theme': 'neutral'}}%%
 xychart-beta
     title "Crecimiento Mensual del Balance"
     x-axis [Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic, Ene, Feb, Mar]
-    y-axis "0" "500" "1000" "1500" "2000" "2500" "3000" "3500" "4000" "4500" "5000"
+    y-axis 0 500 1000 1500 2000 2500 3000 3500 4000 4500 5000
     bar [100, 180, 350, 580, 780, 980, 1250, 1650, 2100, 2800, 3500, 4400, 4602]
     line [100, 180, 350, 580, 780, 980, 1250, 1650, 2100, 2800, 3500, 4400, 4602]
 ```
@@ -200,11 +199,10 @@ pie title "Composición del Balance Final"
 
 ## 📈 Gráfico de Proyección de Crecimiento Futuro
 ```mermaid
-%%{init: {'theme': 'neutral'}}%%
 xychart-beta
     title "Proyección a 12 Meses"
     x-axis ["Mar'26", "Jun'26", "Sep'26", "Dic'26", "Mar'27"]
-    y-axis "0" "5000" "10000" "15000" "20000" "25000"
+    y-axis 0 5000 10000 15000 20000 25000
     bar [4602, 6350, 9100, 13100, 18500]
     line [4602, 6350, 9100, 13100, 18500]
 ```
@@ -228,21 +226,19 @@ xychart-beta
 
 ### Tendencia de la Tasa de Interés Diaria
 ```mermaid
-%%{init: {'theme': 'neutral'}}%%
 xychart-beta
     title "Tasa de Interés Diaria a lo Largo del Tiempo"
     x-axis [Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic, Ene, Feb, Mar]
-    y-axis "0.74" "0.75" "0.76" "0.77" "0.78" "0.79" "0.80" "0.81"
+    y-axis 0.74 0.75 0.76 0.77 0.78 0.79 0.80 0.81
     line [0.80, 0.79, 0.79, 0.78, 0.78, 0.77, 0.77, 0.77, 0.76, 0.76, 0.75, 0.75, 0.75]
 ```
 
 ### Contribuciones Acumuladas vs Balance
 ```mermaid
-%%{init: {'theme': 'neutral'}}%%
 xychart-beta
     title "Contribuciones Acumuladas vs Balance Total"
     x-axis [Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic, Ene, Feb, Mar]
-    y-axis "0" "500" "1000" "1500" "2000" "2500" "3000" "3500" "4000" "4500" "5000"
+    y-axis 0 500 1000 1500 2000 2500 3000 3500 4000 4500 5000
     bar [0, 25, 50, 75, 125, 150, 175, 200, 225, 250, 275, 300, 325]
     line [100, 180, 350, 580, 780, 980, 1250, 1650, 2100, 2800, 3500, 4400, 4602]
 ```
@@ -288,6 +284,6 @@ Este modelo financiero es solo para fines educativos y de planificación. Siempr
 ## 📄 Licencia
 Este proyecto está licenciado bajo la Licencia MIT - consulte el archivo LICENSE para más detalles.
 
-Última Actualización: 1 de marzo de 2025  
+Última Actualización: 1 de Marzo de 2025  
 Creado por: Equipo de Planificación de CryptoPlaza  
 Para detalles de implementación ver Modelo Financiero TechnoPlay
