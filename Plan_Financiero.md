@@ -146,14 +146,19 @@ graph LR
 
 ### 5.2 📊 Análisis de Eficiencia
 
+#### **ROI Mensual (%)**
+
+| Mes | ROI (%) | Representación Visual |
+|:----|:-------:|:----------------------|
+| Marzo | 0.82% | 🟦🟦🟦🟦🟦🟦🟦🟦 |
+| Abril | 0.89% | 🟦🟦🟦🟦🟦🟦🟦🟦🟦 |
+| Mayo | 0.91% | 🟦🟦🟦🟦🟦🟦🟦🟦🟦 |
+
 ```mermaid
-bar
-    title ROI Mensual (%)
-    xlabel Meses
-    ylabel ROI (%)
-    "Marzo" : 0.82
-    "Abril" : 0.89
-    "Mayo" : 0.91
+pie title Distribución de ROI Mensual
+    "Marzo (0.82%)" : 0.82
+    "Abril (0.89%)" : 0.89
+    "Mayo (0.91%)" : 0.91
 ```
 
 ---
