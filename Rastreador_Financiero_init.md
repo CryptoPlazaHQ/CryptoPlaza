@@ -289,5 +289,5 @@ Este modelo financiero es solo para fines educativos y de planificación. Siempr
 Este proyecto está licenciado bajo la Licencia MIT - consulte el archivo LICENSE para más detalles.
 
 Última Actualización: 1 de marzo de 2025  
-Creado por: [Su Nombre]  
+Creado por: Equipo de Planificación de CryptoPlaza  
 Para detalles de implementación ver Modelo Financiero TechnoPlay
