@@ -245,9 +245,10 @@ xychart-beta
 xychart-beta
   title "Comparativo de Crecimiento"
   x-axis [Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic, Ene, Feb, Mar]
-  y-axis [0, 5000]
-  bar [125,150,175,200,225,250,275,300,325]
-  line [100,180,350,580,780,980,1250,1650,2100,2800,3500,4400,4602]
+  y-axis 0 --> 5000
+  bar [125, 150, 175, 200, 225, 250, 275, 300, 325]
+  line [100, 180, 350, 580, 780, 980, 1250, 1650, 2100, 2800, 3500, 4400, 4602]
+
 ```
 
 ## 📝 Notas y Suposiciones
