@@ -201,12 +201,14 @@ pie title "Composición del Balance Final"
 
 ## 📈 Gráfico de Proyección de Crecimiento Futuro
 ```mermaid
+%%{init: {'theme': 'neutral'}}%%
 xychart-beta
     title "Proyección a 12 Meses"
     x-axis ["Mar'26", "Jun'26", "Sep'26", "Dic'26", "Mar'27"]
-    y-axis 0 5000 10000 15000 20000 25000
-    bar [4602, 6350, 9100, 13100, 18500]
-    line [4602, 6350, 9100, 13100, 18500]
+    y-axis 0 --> 25000
+    bar [4602,6350,9100,13100,18500]
+    line [4602,6350,9100,13100,18500]
+
 ```
 
 ## 📂 Datos Completos
