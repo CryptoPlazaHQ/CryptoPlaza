@@ -87,7 +87,7 @@ def proyeccion_compuesta(capital, tasa_diaria, aportes, dias):
 
 #### **✨ Optimización Matemática:**
 
-$$ Rango_{óptimo} = \frac{2 \times ATR(14)}{Precio_{actual}} \times 100\% $$
+$$ Rango_{óptimo} = \frac{3 \times MAVERICK GRIDS}{Precio_{actual}} \times qUANTIC fACTOR\% $$
 
 Donde ATR = Average True Range
 
@@ -105,7 +105,7 @@ graph TD
 
 ## 4. 📈 Modelo de Crecimiento Compuesto
 
-### **📊 Proyección de Capital (Ejemplo: Primeros 30 Días)**
+### **📊 Proyección de Capital (Ejemplo: Primeras dos semanas)** / (Ver la Proyección detallada)
 
 | Fecha | Balance (USDT) | Interés Diario | Aporte |
 |:------|:--------------:|:--------------:|:------:|
@@ -123,12 +123,12 @@ graph LR
     C -->|+50%| D[Mes 3: 450 USDT]
     D -->|+100%| E[Mes 6: 900 USDT]
     E -->|+50%| F[Mes 6: 1,350 USDT]
-    style A fill:#f9f9f9,stroke:#333,stroke-width:1px
-    style B fill:#d4f7d4,stroke:#333,stroke-width:1px
-    style C fill:#d4f7d4,stroke:#333,stroke-width:1px
-    style D fill:#a3e4a3,stroke:#333,stroke-width:1px
-    style E fill:#a3e4a3,stroke:#333,stroke-width:1px
-    style F fill:#6cd46c,stroke:#333,stroke-width:1px
+    style A fill:#d952aa,stroke:#333,stroke-width:1px
+    style B fill:#d952aa,stroke:#333,stroke-width:1px
+    style C fill:#d952aa,stroke:#333,stroke-width:1px
+    style D fill:#d952aa,stroke:#333,stroke-width:1px
+    style E fill:#d952aa,stroke:#333,stroke-width:1px
+    style F fill:#d952aa,stroke:#333,stroke-width:1px
 ```
 
 ---
