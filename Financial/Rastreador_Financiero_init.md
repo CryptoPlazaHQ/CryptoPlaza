@@ -1,7 +1,9 @@
 # 📊 Análisis del Rastreador Financiero y Tablero de Proyección
 
-Sistema profesional de proyección financiera con interés compuesto diario y contribuciones periódicas
-Fuente de datos: TechnoPlay - Hoja 1 (1).pdf
+Sistema profesional de proyección financiera con interés compuesto diario y contribuciones periódicas.
+
+**Fuente de datos:** [Tablero de Proyecciones](https://github.com/CryptoPlazaHQ/CryptoPlaza/blob/main/Financial/Projection%20Board_init%20-%20TechnoPlay.pdf)
+
 
 ## 📈 Resumen de Crecimiento
 Un sistema integral de proyección financiera que rastrea la acumulación de riqueza a través de interés compuesto diario y contribuciones mensuales.
