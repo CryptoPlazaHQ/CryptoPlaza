@@ -40,11 +40,11 @@ $0    |🚀_________________________________________________
 ## 📊 Gráfico de Crecimiento del Balance
 ```mermaid
 graph TD
-    style A fill:#e6f7ff,stroke:#1890ff,stroke-width:2px
-    style B fill:#e6f7ff,stroke:#1890ff,stroke-width:2px
-    style C fill:#e6f7ff,stroke:#1890ff,stroke-width:2px
-    style D fill:#e6f7ff,stroke:#1890ff,stroke-width:2px
-    style E fill:#e6f7ff,stroke:#1890ff,stroke-width:2px
+    style A fill:#d952aa,stroke:#1890ff,stroke-width:2px
+    style B fill:#d952aa,stroke:#1890ff,stroke-width:2px
+    style C fill:#d952aa,stroke:#1890ff,stroke-width:2px
+    style D fill:#d952aa,stroke:#1890ff,stroke-width:2px
+    style E fill:#d952aa,stroke:#1890ff,stroke-width:2px
     
     A["Inicial<br/>$100.00<br/>Mar 2025"] --> B["Hito 1<br/>$1,000.00<br/>Sep 2025"]
     B --> C["Hito 2<br/>$2,500.00<br/>Nov 2025"]
