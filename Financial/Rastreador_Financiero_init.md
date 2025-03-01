@@ -260,10 +260,6 @@ xychart-beta
 - Moneda: Dólar estadounidense ($)
 - Cálculo de interés: Capitalización diaria con tasas variables
 
-**Anomalías de Datos:**
-- Algunos formatos de fecha inválidos en los datos fuente (ej. "15/2025")
-- La fila final muestra una proyección incompleta
-- Pueden existir pequeñas diferencias de redondeo
 
 **Consideraciones de Implementación:**
 - Las tasas de interés muestran una disminución gradual (0.80% → 0.75%) a medida que crece el balance
