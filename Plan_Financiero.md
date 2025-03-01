@@ -78,8 +78,8 @@ def proyeccion_compuesta(capital, tasa_diaria, aportes, dias):
 | Condición de Mercado | Configuración de Grid Bots |
 |:---------------------|:---------------------------|
 | 🟢 Alcista (VIX < 30) | Rango estrecho (3-5%), Apalancamiento 3x |
-| 🟠 Lateral (VIX 30-60) | Rango medio (5-8%), Apalancamiento 2x |
-| 🔴 Bajista (VIX > 60) | Rango amplio (8-12%), Apalancamiento 1x |
+| 🟠 Lateral (VIX 30-60) | Rango medio (5-8%), Apalancamiento 5x |
+| 🔴 Bajista (VIX > 60) | Rango amplio (8-12%), Apalancamiento 7x |
 
 ### 3.2 📐 Trazado Óptimo de Rangos Operativos por Par
 
