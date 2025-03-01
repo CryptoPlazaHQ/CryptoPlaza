@@ -1,7 +1,7 @@
 # 🚀 Plan Financiero - Estrategia Maverick 🚀
 ## Proyección Estratégica para la Sostenibilidad y Escalabilidad
 
-![CryptoPlaza Banner](https://via.placeholder.com/1200x200?text=CryptoPlaza+-+Financial+Planning+Excellence)
+![Stock Analysis](https://github.com/CryptoPlazaHQ/Stock/blob/main/001.png)
 
 ## 📋 Índice
 1. [📊 Visión General del Plan Financiero](#1-visión-general-del-plan-financiero)
