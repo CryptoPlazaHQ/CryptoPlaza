@@ -232,22 +232,23 @@ xychart-beta
 ```mermaid
 %%{init: {'theme': 'neutral'}}%%
 xychart-beta
-      title "Comparativo de Crecimiento"
-      x-axis [Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic, Ene, Feb, Mar]
-      y-axis 0 --> 5000
-      bar125150175200225250275300325
-      line100180350580780980[1250][1650][2100][2800][3500][4400][4602]
+  title "Tasa de Interés Diaria"
+  x-axis [Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic, Ene, Feb, Mar]
+  y-axis 0.74 --> 0.81
+  line [0.80,0.79,0.79,0.78,0.78,0.77,0.77,0.77,0.76,0.76,0.75,0.75,0.75]
+
 ```
 
 ### Contribuciones Acumuladas vs Balance
+```mermaid
 %%{init: {'theme': 'neutral'}}%%
 xychart-beta
-  title "Contribuciones Acumuladas vs Balance Total"
+  title "Comparativo de Crecimiento"
   x-axis [Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic, Ene, Feb, Mar]
-  y-axis "0" "500" "1000" "1500" "2000" "2500" "3000" "3500" "4000" "4500" "5000"
-  bar [0, 25, 50, 75, 125, 150, 175, 200, 225, 250, 275, 300, 325]
-  line [100, 180, 350, 580, 780, 980, 1250, 1650, 2100, 2800, 3500, 4400, 4602]
-
+  y-axis 0 --> 5000
+  bar 125,150,175,200,225,250,275,300,325
+  line [100,180,350,580,780,980,1250,1650,2100,2800,3500,4400,4602]
+```
 
 ## 📝 Notas y Suposiciones
 
