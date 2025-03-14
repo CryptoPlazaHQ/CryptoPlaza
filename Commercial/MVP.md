@@ -228,90 +228,121 @@ sequenceDiagram
 
 ----
 
-## 🎮 Demostración
+# 🎮 Demostración
 
-### Panel de Control Interactivo
+## Panel de Control Interactivo
 
 <div align="center">
   <img src="https://github.com/CryptoPlazaHQ/Stock/blob/main/Roadmap/dashboard-demo.png" alt="Dashboard Demo" width="850px">
-  <p><i>Vista previa del Dashboard - Accede a la <a href="https://demo.cryptoplaza.com">versión demo</a></i></p>
+  <p><em>Vista previa del Dashboard - Accede a la <a href="https://demo.cryptoplaza.com">versión demo</a></em></p>
 </div>
 
-### Flujo de Valor en Tiempo Real
+## Flujo de Valor en Tiempo Real
 
 ```mermaid
+%%{init: {"sankeyDiagram": {"showValues": true}} }%%
 sankey-beta
-    Nodos PTT [47] --> Goose [47]
-    GPU Rigs [28] --> Goose [28]
-    Apps Pasivas [15] --> Goose [15]
-    Goose [90] --> Reinversión [36]
-    Goose [90] --> Maverick [54]
-    Maverick [54] --> Ganancias Trading [82]
-    Ganancias Trading [82] --> Distribución Stakeholders [62]
-    Ganancias Trading [82] --> Reserva DAO [20]
+    Nodos PTT[47] --> Goose[47]
+    GPU Rigs[28] --> Goose[28]
+    Apps Pasivas[15] --> Goose[15]
+    Goose[90] --> Reinversión[36]
+    Goose[90] --> Maverick[54]
+    Maverick[54] --> Ganancias Trading[82]
+    Ganancias Trading[82] --> Distribución Stakeholders[62]
+    Ganancias Trading[82] --> Reserva DAO[20]
 ```
 
 <div align="center">
-  <i>Representación de flujo de recursos (unidades: % del total generado)</i>
+  <p><em>Representación de flujo de recursos (unidades: % del total generado)</em></p>
 </div>
 
 ---
 
-## 💼 Casos de Uso
+# 💼 Casos de Uso
 
-<div align="center">
+<div class="use-cases">
   <table>
-    <tr>
-      <th>Escenario</th>
-      <th>Solución</th>
-      <th>Resultados</th>
-    </tr>
-    <tr>
-      <td>
-        <b>🏢 Empresas con recursos computacionales infrautilizados</b>
-      </td>
-      <td>
-        Integración de Smart Stations en infraestructura existente
-      </td>
-      <td>
-        <ul>
-          <li>ROI adicional sin inversión extra</li>
-          <li>Optimización de recursos tecnológicos</li>
-          <li>Nuevas fuentes de ingresos pasivos</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>👥 Comunidades de inversión</b>
-      </td>
-      <td>
-        Implementación de clusters Goose-Maverick gestionados colectivamente
-      </td>
-      <td>
-        <ul>
-          <li>Democratización del acceso a trading algorítmico</li>
-          <li>Distribución equitativa de beneficios</li>
-          <li>Educación financiera práctica</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>🧠 Desarrolladores AI/ML</b>
-      </td>
-      <td>
-        Plataforma para monetizar infraestructura durante tiempo inactivo
-      </td>
-      <td>
-        <ul>
-          <li>Subsidio de costos de desarrollo</li>
-          <li>Utilización dual de hardware especializado</li>
-          <li>Financiación automática para nuevos proyectos</li>
-        </ul>
-      </td>
-    </tr>
+    <thead>
+      <tr>
+        <th width="30%">Escenario</th>
+        <th width="30%">Solución</th>
+        <th width="40%">Resultados</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <h3>🏢 Empresas</h3>
+          <p>Con recursos computacionales infrautilizados</p>
+        </td>
+        <td>
+          <p>Integración de Smart Stations en infraestructura existente</p>
+        </td>
+        <td>
+          <ul>
+            <li>ROI adicional sin inversión extra</li>
+            <li>Optimización de recursos tecnológicos</li>
+            <li>Nuevas fuentes de ingresos pasivos</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>👥 Comunidades</h3>
+          <p>Grupos de inversión colaborativa</p>
+        </td>
+        <td>
+          <p>Implementación de clusters Goose-Maverick gestionados colectivamente</p>
+        </td>
+        <td>
+          <ul>
+            <li>Democratización del acceso a trading algorítmico</li>
+            <li>Distribución equitativa de beneficios</li>
+            <li>Educación financiera práctica</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>🧠 Desarrolladores</h3>
+          <p>Especialistas en AI/ML</p>
+        </td>
+        <td>
+          <p>Plataforma para monetizar infraestructura durante tiempo inactivo</p>
+        </td>
+        <td>
+          <ul>
+            <li>Subsidio de costos de desarrollo</li>
+            <li>Utilización dual de hardware especializado</li>
+            <li>Financiación automática para nuevos proyectos</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
   </table>
 </div>
 
----
+<style>
+  .use-cases table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .use-cases th, .use-cases td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  .use-cases thead {
+    background-color: #f8f9fa;
+  }
+  .use-cases tr:hover {
+    background-color: #f1f1f1;
+  }
+  .use-cases h3 {
+    margin-top: 0;
+  }
+  .use-cases ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+</style>
+
