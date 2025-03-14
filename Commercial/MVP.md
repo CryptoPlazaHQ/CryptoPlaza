@@ -241,9 +241,9 @@ sequenceDiagram
 
 ```mermaid
 graph LR
-A["Nodos PTT"] -->|"47%"| B["Goose"]
+A["Nodos BTT"] -->|"15%"| B["Goose"]
 C["GPU Rigs"] -->|"28%"| B
-D["Apps Pasivas"] -->|"15%"| B
+D["Apps Pasivas"] -->|"47%"| B
 B -->|"36%"| E["Reinversión"]
 B -->|"54%"| F["Maverick"]
 F -->|"82%"| G["Ganancias Trading"]
