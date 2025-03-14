@@ -213,11 +213,11 @@ flowchart LR
     C -->|Alimenta| D[🦅 Maverick]
     D -->|Produce| E[📈 Ganancias]
     E -->|Reinvierte| A
-    style A fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
-    style B fill:#e8f5e9,stroke:#43a047,stroke-width:2px
-    style C fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-    style D fill:#ffebee,stroke:#c62828,stroke-width:2px
-    style E fill:#e8eaf6,stroke:#3f51b5,stroke-width:2px
+    style A fill:#243773,stroke:#0288d1,stroke-width:2px
+    style B fill:#d94ea8,stroke:#43a047,stroke-width:2px
+    style C fill:#243773,stroke:#fbc02d,stroke-width:2px
+    style D fill:#d94ea8,stroke:#c62828,stroke-width:2px
+    style E fill:#243773,stroke:#3f51b5,stroke-width:2px
 ```
 
 ### Panel de Rendimiento del Ecosistema
