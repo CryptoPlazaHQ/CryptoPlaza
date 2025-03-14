@@ -230,9 +230,9 @@ sequenceDiagram
 ## Panel de Control Interactivo
 
 <div align="center">
-  <img src="https://github.com/CryptoPlazaHQ/Stock/blob/main/Roadmap/dashboard-demo.png" alt="Dashboard Demo" width="850px">
+ [![MEV:Goose1](https://raw.githubusercontent.com/CryptoPlazaHQ/Stock/main/narrative/maverick_goose_init_01.jpg)
   <p><em>Vista previa del Dashboard - Accede a la <a href="https://demo.cryptoplaza.com">versión demo</a></em></p>
-</div>
+</div> (working on it)
 
 
 ## Flujo de Valor en Tiempo Real
