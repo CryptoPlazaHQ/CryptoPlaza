@@ -28,9 +28,7 @@
 
 **Goose & Maverick** constituyen el núcleo del sistema autogestionable de CryptoPlaza, desarrollado para optimizar la generación de recursos y gestionar activos digitales de forma autónoma e inteligente.
 
-<div align="center">
-  <img src="https://github.com/CryptoPlazaHQ/Stock/blob/main/Roadmap/goose-maverick-overview.png" alt="Goose & Maverick Overview" width="650px">
-</div>
+[![MEV_GOOSE](https://raw.githubusercontent.com/CryptoPlazaHQ/Stock/main/narrative/maverick_goose_init.jpg)
 
 ### El Concepto en 60 Segundos
 
