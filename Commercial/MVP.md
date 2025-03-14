@@ -58,8 +58,8 @@ graph TD
     F -->|Distribuye| H[Stakeholders]
     
     class A,B,C,D,E,F,G,H node
-    classDef node fill:#f9f9f9,stroke:#333,stroke-width:1px
-    classDef output fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    classDef node fill:#d94ea8,stroke:#333,stroke-width:1px
+    classDef output fill:#243773,stroke:#0288d1,stroke-width:2px
     class F output
 ```
 
