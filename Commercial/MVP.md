@@ -79,7 +79,7 @@ graph TD
     <tr>
       <td width="60%">
         <h4>Algoritmo Grid Trading</h4>
-        <img src="https://raw.githubusercontent.com/CryptoPlazaHQ/Stock/main/Roadmap/maverick-grid.png" alt="Maverick Grid System" width="100%">
+        <img src="https:/raw.githubusercontent.com/CryptoPlazaHQ/Stock/main/cryptocoin_logo_color.png" alt="Maverick Grid System" width="100%">
       </td>
       <td width="40%">
         <h4>Parámetros Clave</h4>
