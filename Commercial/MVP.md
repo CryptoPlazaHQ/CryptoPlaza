@@ -240,110 +240,53 @@ sequenceDiagram
 ## Flujo de Valor en Tiempo Real
 
 ```mermaid
-%%{init: {"theme": "default", "sankeyDiagram": {"showValues": true}} }%%
 graph LR
-    A[Nodos PTT] -->|47%|> B[Goose]
-    C[GPU Rigs] -->|28%|> B
-    D[Apps Pasivas] -->|15%|> B
-    B -->|36%|> E[Reinversión]
-    B -->|54%|> F[Maverick]
-    F -->|82%|> G[Ganancias Trading]
-    G -->|62%|> H[Distribución Stakeholders]
-    G -->|20%|> I[Reserva DAO]
-
+A["Nodos PTT"] -->|47%|> B["Goose"]
+C["GPU Rigs"] -->|28%|> B
+D["Apps Pasivas"] -->|15%|> B
+B -->|36%|> E["Reinversión"]
+B -->|54%|> F["Maverick"]
+F -->|82%|> G["Ganancias Trading"]
+G -->|62%|> H["Distribución Stakeholders"]
+G -->|20%|> I["Reserva DAO"]
 ```
 
 <div align="center">
   <p><em>Representación de flujo de recursos (unidades: % del total generado)</em></p>
 </div>
 
-----
+---
 
-# 💼 Casos de Uso
+### 💼 Casos de Uso
 
-<div class="use-cases">
-  <table>
-    <thead>
-      <tr>
-        <th width="30%">Escenario</th>
-        <th width="30%">Solución</th>
-        <th width="40%">Resultados</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <h3>🏢 Empresas</h3>
-          <p>Con recursos computacionales infrautilizados</p>
-        </td>
-        <td>
-          <p>Integración de Smart Stations en infraestructura existente</p>
-        </td>
-        <td>
-          <ul>
-            <li>ROI adicional sin inversión extra</li>
-            <li>Optimización de recursos tecnológicos</li>
-            <li>Nuevas fuentes de ingresos pasivos</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3>👥 Comunidades</h3>
-          <p>Grupos de inversión colaborativa</p>
-        </td>
-        <td>
-          <p>Implementación de clusters Goose-Maverick gestionados colectivamente</p>
-        </td>
-        <td>
-          <ul>
-            <li>Democratización del acceso a trading algorítmico</li>
-            <li>Distribución equitativa de beneficios</li>
-            <li>Educación financiera práctica</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3>🧠 Desarrolladores</h3>
-          <p>Especialistas en AI/ML</p>
-        </td>
-        <td>
-          <p>Plataforma para monetizar infraestructura durante tiempo inactivo</p>
-        </td>
-        <td>
-          <ul>
-            <li>Subsidio de costos de desarrollo</li>
-            <li>Utilización dual de hardware especializado</li>
-            <li>Financiación automática para nuevos proyectos</li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+| Escenario | Solución | Resultados |
+|-----------|----------|------------|
+| 🏢 Empresas | Integración de Smart Stations en infraestructura existente | ROI adicional sin inversión extra, optimización de recursos tecnológicos, nuevas fuentes de ingresos pasivos |
+| 👥 Comunidades | Implementación de clusters Goose-Maverick gestionados colectivamente | Democratización del acceso a trading algorítmico, distribución equitativa de beneficios, educación financiera práctica |
+| 🧠 Desarrolladores | Plataforma para monetizar infraestructura durante tiempo inactivo | Subsidio de costos de desarrollo, utilización dual de hardware especializado, financiación automática para nuevos proyectos |
 
 <style>
-  .use-cases table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  .use-cases th, .use-cases td {
-    padding: 12px;
-    border: 1px solid #ddd;
-  }
-  .use-cases thead {
-    background-color: #f8f9fa;
-  }
-  .use-cases tr:hover {
-    background-color: #f1f1f1;
-  }
-  .use-cases h3 {
-    margin-top: 0;
-  }
-  .use-cases ul {
-    padding-left: 20px;
-    margin: 0;
-  }
+.use-cases table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.use-cases th, .use-cases td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+.use-cases thead {
+  background-color: #f8f9fa;
+}
+.use-cases tr:hover {
+  background-color: #f1f1f1;
+}
+.use-cases h3 {
+  margin-top: 0;
+}
+.use-cases ul {
+  padding-left: 20px;
+  margin: 0;
+}
 </style>
+
 
