@@ -237,18 +237,19 @@ sequenceDiagram
   <p><em>Vista previa del Dashboard - Accede a la <a href="https://demo.cryptoplaza.com">versión demo</a></em></p>
 </div>
 
+
 ## Flujo de Valor en Tiempo Real
 
 ```mermaid
 graph LR
-A["Nodos PTT"] -->|47%|> B["Goose"]
-C["GPU Rigs"] -->|28%|> B
-D["Apps Pasivas"] -->|15%|> B
-B -->|36%|> E["Reinversión"]
-B -->|54%|> F["Maverick"]
-F -->|82%|> G["Ganancias Trading"]
-G -->|62%|> H["Distribución Stakeholders"]
-G -->|20%|> I["Reserva DAO"]
+A["Nodos PTT"] -->|"47%"| B["Goose"]
+C["GPU Rigs"] -->|"28%"| B
+D["Apps Pasivas"] -->|"15%"| B
+B -->|"36%"| E["Reinversión"]
+B -->|"54%"| F["Maverick"]
+F -->|"82%"| G["Ganancias Trading"]
+G -->|"62%"| H["Distribución Stakeholders"]
+G -->|"20%"| I["Reserva DAO"]
 ```
 
 <div align="center">
@@ -288,5 +289,3 @@ G -->|20%|> I["Reserva DAO"]
   margin: 0;
 }
 </style>
-
-
