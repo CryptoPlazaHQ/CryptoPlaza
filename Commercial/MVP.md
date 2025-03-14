@@ -1,7 +1,6 @@
 # 🚀 Goose & Maverick MVP
 
-<div align="center">
-  <img src="https://github.com/CryptoPlazaHQ/Stock/blob/main/logo-cryptoplaza.png" alt="CryptoPlaza Logo" width="250px">
+[![CryptoPlaza Banner](https://raw.githubusercontent.com/CryptoPlazaHQ/Stock/main/fintech3%20genesis%20brand.png)
   
   <h3>Sistema Autónomo de Generación de Recursos para el Ecosistema CryptoPlaza</h3>
 
