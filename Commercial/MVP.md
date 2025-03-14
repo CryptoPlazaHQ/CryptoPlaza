@@ -226,7 +226,7 @@ sequenceDiagram
   </table>
 </div>
 
----
+----
 
 ## 🎮 Demostración
 
