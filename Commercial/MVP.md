@@ -256,7 +256,7 @@ sankey-beta
   <p><em>Representación de flujo de recursos (unidades: % del total generado)</em></p>
 </div>
 
----
+----
 
 # 💼 Casos de Uso
 
