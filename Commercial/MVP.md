@@ -260,26 +260,4 @@ G -->|"20%"| I["Reserva DAO"]
 | 👥 Comunidades | Implementación de clusters Goose-Maverick gestionados colectivamente | Democratización del acceso a trading algorítmico, distribución equitativa de beneficios, educación financiera práctica |
 | 🧠 Desarrolladores | Plataforma para monetizar infraestructura durante tiempo inactivo | Subsidio de costos de desarrollo, utilización dual de hardware especializado, financiación automática para nuevos proyectos |
 
-<style>
-.use-cases table {
-  width: 100%;
-  border-collapse: collapse;
-}
-.use-cases th, .use-cases td {
-  padding: 12px;
-  border: 1px solid #ddd;
-}
-.use-cases thead {
-  background-color: #f8f9fa;
-}
-.use-cases tr:hover {
-  background-color: #f1f1f1;
-}
-.use-cases h3 {
-  margin-top: 0;
-}
-.use-cases ul {
-  padding-left: 20px;
-  margin: 0;
-}
-</style>
+
