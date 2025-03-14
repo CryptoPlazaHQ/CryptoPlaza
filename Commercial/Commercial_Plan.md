@@ -1,6 +1,6 @@
 # 🚀 CryptoPlaza: Ecosistema FinTech 3.0
 
-[![CryptoPlaza Banner](https://github.com/CryptoPlazaHQ/Stock/blob/main/Roadmap/header_banner.png)](https://raw.githubusercontent.com/CryptoPlazaHQ/Stock/main/fintech3%20genesis%20brand.png)
+[![CryptoPlaza Banner](https://raw.githubusercontent.com/CryptoPlazaHQ/Stock/main/fintech3%20genesis%20brand.png)
 
 <div align="center">
   <a href="#vision">Visión</a> •
