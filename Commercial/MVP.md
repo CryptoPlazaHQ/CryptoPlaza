@@ -240,16 +240,17 @@ sequenceDiagram
 ## Flujo de Valor en Tiempo Real
 
 ```mermaid
-%%{init: {"sankeyDiagram": {"showValues": true}} }%%
-sankey-beta
-    Nodos PTT[47] --> Goose[47]
-    GPU Rigs[28] --> Goose[28]
-    Apps Pasivas[15] --> Goose[15]
-    Goose[90] --> Reinversión[36]
-    Goose[90] --> Maverick[54]
-    Maverick[54] --> Ganancias Trading[82]
-    Ganancias Trading[82] --> Distribución Stakeholders[62]
-    Ganancias Trading[82] --> Reserva DAO[20]
+%%{init: {"theme": "default", "sankeyDiagram": {"showValues": true}} }%%
+graph LR
+    A[Nodos PTT] -->|47%|> B[Goose]
+    C[GPU Rigs] -->|28%|> B
+    D[Apps Pasivas] -->|15%|> B
+    B -->|36%|> E[Reinversión]
+    B -->|54%|> F[Maverick]
+    F -->|82%|> G[Ganancias Trading]
+    G -->|62%|> H[Distribución Stakeholders]
+    G -->|20%|> I[Reserva DAO]
+
 ```
 
 <div align="center">
