@@ -1,6 +1,6 @@
 # 🚀 CryptoPlaza: Ecosistema FinTech 3.0
 
-![CryptoPlaza Banner](https://github.com/CryptoPlazaHQ/Stock/blob/main/Roadmap/header_banner.png)
+[![CryptoPlaza Banner](https://github.com/CryptoPlazaHQ/Stock/blob/main/Roadmap/header_banner.png)](https://raw.githubusercontent.com/CryptoPlazaHQ/Stock/main/fintech3%20genesis%20brand.png)
 
 <div align="center">
   <a href="#vision">Visión</a> •
@@ -202,32 +202,76 @@ sequenceDiagram
 
 ## <a name="sinergia"></a>🔄 Modelo de Autogestión: Sinergia Goose-Maverick
 
-![Sinergia Modelo](https://github.com/CryptoPlazaHQ/Stock/blob/main/Roadmap/sinergia_modelo.png)
+## 🔄 Flujo Operativo: Sinergia Goose-Maverick
 
-### Flujo Operativo:
-
-```
-Smart Stations (Goose) → Fondos Generados → Alimentación Maverick → Ganancias → Reinversión en Smart Stations
-```
-
-#### Panel de Control Goose-Maverick
-
-| Componente | KPI Principal | Meta |
-|------------|---------------|------|
-| 🦢 **Goose** | ROI mensual | ≥15% |
-| 🦅 **Maverick** | ROI anual | 60-90% |
-| 🔄 **Ciclo Completo** | Tiempo de recuperación | <6 meses |
-
-### Distribución de Recursos
+### Ciclo de Generación de Valor
 
 ```mermaid
-pie title Distribución de Ganancias
-    "Reinversión Infraestructura" : 40
-    "Desarrollo" : 20
-    "Marketing" : 15
-    "Staking Rewards" : 15
-    "DAO Treasury" : 10
+flowchart LR
+    A[🖥️ Smart Stations] -->|Administra| B[🦢 Goose AI]
+    B -->|Genera| C[💰 Fondos Base]
+    C -->|Alimenta| D[🦅 Maverick]
+    D -->|Produce| E[📈 Ganancias]
+    E -->|Reinvierte| A
+    style A fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style B fill:#e8f5e9,stroke:#43a047,stroke-width:2px
+    style C fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
+    style D fill:#ffebee,stroke:#c62828,stroke-width:2px
+    style E fill:#e8eaf6,stroke:#3f51b5,stroke-width:2px
 ```
+
+### Panel de Rendimiento del Ecosistema
+
+<table>
+  <thead>
+    <tr>
+      <th>Componente</th>
+      <th>KPI Principal</th>
+      <th>Meta</th>
+      <th>Medición</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><b>🦢 Goose</b></td>
+      <td>ROI mensual</td>
+      <td><code>≥50%</code></td>
+      <td>
+        <img src="https://progress-bar.dev/50?title=Meta&width=200" alt="Goose ROI Meta">
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>🦅 Maverick</b></td>
+      <td>ROI mensual</td>
+      <td><code>40-80%</code></td>
+      <td>
+        <img src="https://progress-bar.dev/60?title=Promedio&width=200" alt="Maverick ROI Meta">
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>🔄 Ciclo Completo</b></td>
+      <td>Tiempo de recuperación</td>
+      <td><code>&lt;6 meses</code></td>
+      <td>
+        <img src="https://progress-bar.dev/75?title=Avance&width=200" alt="Tiempo Recuperación">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Distribución de Recursos por Ciclo
+
+<div align="center">
+  <img src="https://quickchart.io/chart?c={type:'doughnut',data:{labels:['Reinversión','Desarrollo','Staking','DAO Treasury'],datasets:[{data:[60,20,15,5],backgroundColor:['%2343a047','%232196f3','%23fbc02d','%23e91e63']}]},options:{plugins:{doughnutlabel:{labels:[{text:'Distribución',font:{size:20}},{text:'de Recursos',font:{size:20}}]}}}}" width="400">
+</div>
+
+#### Notas sobre el Rendimiento
+
+- El sistema **Goose** optimiza la generación pasiva con un objetivo de **≥50% ROI mensual**
+- Los algoritmos **Maverick** producen entre **40-80% mensual** dependiendo de la volatilidad del mercado
+- El **ciclo completo** está diseñado para recuperar la inversión inicial en **menos de 6 meses**
+
+> 💡 **Tip:** Los participantes tempranos en el ecosistema obtienen ventajas adicionales como acceso prioritario a nuevas Smart Stations y bonificaciones en el staking del token PoC.
 
 ---
 
