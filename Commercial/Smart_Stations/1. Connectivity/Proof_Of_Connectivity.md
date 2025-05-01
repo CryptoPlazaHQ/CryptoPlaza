@@ -1,6 +1,6 @@
 # Conceptos Clave y Ventajas de White Labelling y SDKs en Blockchain
 
-![Blockchain Technology]([https://raw.githubusercontent.com/{user}/{repo}/{branch}/{path}](https://raw.githubusercontent.com/CryptoPlazaHQ/CryptoPlaza/main/Commercial/Smart_Stations/1.%20Connectivity/file_000000004e5061f8af4d8489938acb1c.png)
+![Blockchain Technology](https://raw.githubusercontent.com/CryptoPlazaHQ/CryptoPlaza/main/Commercial/Smart_Stations/1.%20Connectivity/file_000000004e5061f8af4d8489938acb1c.png)
 
 ## 📚 Guía Beginner-Friendly sobre Conceptos Esenciales
 
